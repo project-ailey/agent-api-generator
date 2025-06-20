@@ -1,4 +1,4 @@
-package com.projectailey;
+package com.ailey.aime.agentapigenerator;
 
 public class Greeter {
     public static String hello() {

@@ -1,4 +1,4 @@
-package com.projectailey;
+package com.ailey.aime.agentapigenerator;
 
 public class Main {
     public static void main(String[] args) {
