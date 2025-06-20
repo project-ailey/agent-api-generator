@@ -1,0 +1,18 @@
+<snippets>
+	<snippet name="call_test">
+	<![CDATA[
+	function callTest() external {
+		//IERC20(aleToken).approve(address(aileyApiContract), 44);
+		aileyApiContract.test(msg.sender);
+	}
+		]]>
+	</snippet>
+	
+	<snippet name="call_test2">
+		<![CDATA[
+	function callTest2() external {
+		aileyApiContract.test(msg.sender);
+	}
+			]]>
+	</snippet>
+</snippets>
