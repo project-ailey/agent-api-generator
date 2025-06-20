@@ -16,10 +16,10 @@ import lombok.*;
         })
 public class Snippet {
     @Id
-    @Column(nullable = false)
     private String name;
     
     @Enumerated(EnumType.STRING)
+    @Column(nullable = false)
     private SnippetType type;
 
     @Column(nullable = false, columnDefinition = "LONGTEXT")
